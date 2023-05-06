@@ -1,0 +1,550 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #F9F5EB;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    max-width: 100%;
+    animation-duration: 2.5s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+.title{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width:auto;
+    max-width: 100%;
+}
+
+
+.title a{
+    padding: 50px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.title a:hover{
+    color: teal;
+}
+
+
+
+
+.abouttitle{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 0;
+    max-width: 100%;
+    margin-right: -50%;
+    margin-top: 150px;
+}
+
+.first img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    max-width: 100%;
+    margin-left: 40%;
+    margin-top: 80px;
+}
+
+.about-content, .teddy-content{
+    font-size: 35px;
+    text-align: left;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-right: -50%;
+    font-weight: 200;
+}
+
+a{
+    text-decoration: none;
+    color:teal;
+}
+
+a:hover{
+    text-shadow: 5px 5px black ;
+}
+
+
+
+
+
+
+
+h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;;
+    max-width: 100%;
+    margin-left: 30%;
+}
+
+h4{
+    text-align: center;
+    margin-left: 30%;
+    font-weight: 200;
+    font-size: 35px;
+}
+
+.videos h5{
+    text-align: center;
+    margin-left: 30%;
+    font-weight: 200;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    max-width: 100%;
+    border-radius: 100px;
+    background-color:#df9595;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    color:#df9595;
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+.container{
+    max-width: 100%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+iframe{
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+.awards{
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;;
+    max-width: 100%;
+    margin-left: 30%;
+}
+
+.tab-box {
+    display: inline-block;
+    margin-left: 80px;
+    font-size: 30px;
+    background-color: #df9595;
+    color: black; 
+    width: 400px;
+    border: 3px solid black;
+}
+
+.box-tabs{
+    border-bottom:3px solid black ;
+}
+
+.single-tab{
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.single-tab:hover{
+    color: teal;
+}
+
+.tab-box .box-tabs {
+    text-align: left;
+    background-color: #F9F5EB; 
+}
+
+.tab-box .box-tabs .single-tab {
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0;
+    display: inline-block;
+    padding: 0 30px;
+    height: 70px;
+    line-height: 70px;
+}
+
+.tab-box #box-text {
+    text-align: left;
+    padding: 10px;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 28px;
+ }
+
+ ul li{
+    padding-bottom: 10px;
+    padding-top: 20px;
+    letter-spacing: 5px;
+ }
+
+
+
+
+
+
+.quotes{
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;;
+    max-width: 100%;
+    margin-left: 50%;
+}
+
+.content{
+    background-color:#df9595;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: -50%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-top: 60px;
+}
+
+#quotecontent1{
+    background-color: rgb(149, 149, 223);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+#quotecontent2{
+    background-color: rgb(165, 219, 174);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+#quotecontent3{
+    background-color: rgb(229, 169, 231);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+#quotecontent4{
+    background-color: rgb(156, 158, 129);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+#quotecontent5{
+    background-color: rgb(153, 222, 233);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+strong{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 5px 5px teal;
+    letter-spacing: 3px;
+
+}
+
+
+
+
+
+.contact{
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;;
+    max-width: 100%;
+    margin-left: 0%;
+}
+
+.con{
+    font-size: 20px;
+    text-shadow: none;
+}
+
+.container{
+    margin-left: 43%;
+    margin-right: 0;
+    width:60%
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.socials p{
+    padding: 5px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.socials p:hover{
+    color: teal;
+}
+
+.soc{
+    text-shadow: none;
+    color: black;
+}
+
+
+.copyright{
+    margin-left: 50%;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 2000px){
+    .title a{
+        padding: 30px;
+        font-size: 40px;
+       }  
+       
+    .abouttitle{
+        font-size: 90px;
+        margin-right: 0;
+    }
+
+    .first img{
+        margin-left: 0;
+    }
+
+    .about-content, .teddy-content{
+        font-size: 40px;
+        text-align: center;
+        padding-left: 25%;
+        padding-right: 25%;
+        width: 50%;
+    }
+
+    h1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 30%;
+
+    
+}
+
+    h4{
+        margin-left: 0;
+    }
+
+    .videos h5{
+        margin-left: 0;
+    }
+
+    .container{
+        margin-right:0;
+        margin-left: 20%;
+    }
+
+    .awards{
+        margin-left: 0%;
+    }
+    
+    .tab-box{
+        width: 800px;
+        margin-left: 0;
+    }
+
+    .content{
+        margin-right: 0;
+    }
+        
+    .quotes{
+        margin-left: 0;
+    }
+
+    #quotecontent1 #quotecontent2 #quotecontent3 #quotecontent4 #quotecontent5{
+        font-size: 80px;
+    }
+
+    
+    .copyright{
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 960px){
+   .title a{
+        padding: 30px;
+        font-size: 20px;
+   }
+
+   .h1{
+        text-align: center;
+        padding-left: 50%;
+}
+
+    h1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 30%;
+
+    
+}
+
+    h4{
+        margin-left: 0;
+    }
+
+    .videos h5{
+        margin-left: 0;
+    }
+
+    .awards{
+        margin-left: 0%;
+    }
+    
+    .tab-box{
+        width: 600px;
+        margin-left: 0;
+    }
+
+
+        
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+    .abouttitle{
+        margin-left: 40%;
+        font-size: 50px;
+    }
+    .first img{
+        margin: 17%;
+        margin-left: 25%;
+    }
+
+    .about-content, .teddy-content{
+        font-size: 35px;
+        text-align: center;
+        padding-left: 35%;
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    h1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+        font-size: 60px;
+        margin-left: 50%;
+    }
+
+    h4{
+        margin-left: 50%;
+        font-size: 35px;
+    }
+
+    .videos h5{
+        margin-left: 35%;
+        width: 80%;
+        font-size: 35px;
+    }
+    .container{
+        margin-left: 45%;
+    }
+    iframe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: -15%;
+    }
+
+    .awards{
+        margin-left: 50%;
+    }
+
+    .content{
+        margin-right: -50%;
+    }
+
+    .quotes{
+        margin-left: 50%;
+    }
+
+    .copyright{
+        margin-left: 50%;
+    }
+    
+
+
+}
+
+
