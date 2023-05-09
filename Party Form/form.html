@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id="container">
+        <p style="margin-bottom: 5px">First Name:</p>
+        <input id="first" type="text" value=" " style="margin: 0">
+    
+        <p style="margin-bottom: 5px">Last Name:</p>
+        <input id="last" type="text" value=" " style="margin: 0">
+    
+        <p>Please indicate your gender</p>
+    
+        <form>
+    
+            <span><input type="radio" name="gender" value="M" checked> Male</span><br>
+            <span><input type="radio" name="gender" value="F"> Female</span><br>
+            <span><input type="radio" name="gender" value="NONE"> Prefer not to say</span> 
+            
+        </form>
+    
+        <p>Where did you hear this party from?</p>
+        <form>
+            <select id="options">
+                <option value="opt1">Telegram</option>
+                <option value="opt2">Facebook</option>
+                <option value="opt3">Instagram</option>
+                <option value="opt3">Bean Page</option>
+            </select>
+        </form>
+    
+    
+        <p>What are you bringing to the party? (You may select more than 1)</p>
+        <form>
+    
+            <span><input type="checkbox" name="interest" value="Design"> Toys</span><br>
+            <span><input type="checkbox" name="interest" value="Design"> Food & Beverages</span><br>
+            <span><input type="checkbox" name="interest" value="Design"> Equipments</span>
+            
+        </form>
+    
+        <button>SUBMIT</button>
+
+        <p id="output">
+            Click submit when ready
+        </p>
+        <p id="row"></p>
+        <p id ='last'></p>
+
+        <h2>Click here for FAQs</h2>
+        <div id="tab-content1">
+            
+        </div>
+        <div id="tab-content2">
+            
+        </div>
+        <div id="tab-content3">
+            
+        </div>
+        <div id="tab-content4">
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
