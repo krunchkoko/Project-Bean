@@ -16,5 +16,5 @@ The form website is: http://projectbeanformparty.epizy.com/form.html (compatible
 
 
 ## MOBILE VIEW
-https://github.com/krunchkoko/Project-Bean-HTML-CSS-JS/assets/124163712/03d25b5b-93b6-4ff2-99e4-328b6ab323c9
-https://github.com/krunchkoko/Project-Bean-HTML-CSS-JS/assets/124163712/81244fcb-876a-4a56-bb7b-d2fa565d9fc6
+https://github.com/krunchkoko/Project-Bean-HTML-CSS-JS/assets/124163712/d4019a1f-2b74-4a87-bbbe-30107ab6409f
+Uploading RPReplay_Final1683710498.mp4…
