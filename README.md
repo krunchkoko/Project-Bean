@@ -18,4 +18,5 @@ The form website is: http://projectbeanformparty.epizy.com/form.html (compatible
 ## MOBILE VIEW
 https://github.com/krunchkoko/Project-Bean-HTML-CSS-JS/assets/124163712/239ac962-26d6-4087-b769-8ccdb7d18db9
 
+https://github.com/krunchkoko/Project-Bean-HTML-CSS-JS/assets/124163712/4de1471c-250a-4eb4-aa4f-34c7e9c1c7f5
 
